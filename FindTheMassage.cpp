@@ -36,4 +36,11 @@ bool isWord(string w) {
 int main() {
 	// Load the dictionary
 	LoadDic(DICTIONARY);
+	// Prompt the user for the massage
+	string originalMassage;
+	cin >> originalMassage;
+	// Turn the massage to the lower case
+	for (int i = 0; i < originalMassage.length(); ++i) {
+		originalMassage[i] = tolower(originalMassage[i]);
+	}
 }
