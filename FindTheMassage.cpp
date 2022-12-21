@@ -1,3 +1,13 @@
+/**************************************
+Author     : Adham Mohamed Sayed Allam.
+Date       : 22 Dec 2022 (wow it's my birthday :).
+AppName    : Find-The-Massage.
+Description: Small app that try to separate the entered 
+		non-separated massage as a meaningful massage 
+		with spaces between the words.
+Version    : V1.0
+***************************************/
+
 // Headers
 #include <iostream>
 #include <set>
