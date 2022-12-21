@@ -75,6 +75,7 @@ int main() {
 	LoadDic(DICTIONARY);
 	// Prompt the user for the massage
 	string originalMassage;
+	cout << "Enter a non-separated massage: ";
 	cin >> originalMassage;
 	// Turn the massage to the lower case
 	for (int i = 0; i < originalMassage.length(); ++i) {
